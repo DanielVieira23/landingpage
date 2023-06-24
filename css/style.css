@@ -13,12 +13,32 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.conteudo-social {
+   background-color: #080324;
+   width: 100%;
+   display: flex;
+   position: fixed;
+   height: 35px;
+   z-index: 50;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 1.0em;
+}
+.conteudo-social a{
+   color: white;
+   text-decoration: none;
+   padding-left: 0.5em;
+   font-size: 20px
+}
+
 header {
     z-index: 1;
     background-color: #F9003D;
     height: 80px;
     position: fixed;
     width: 100vw;
+    top: 35px;
 }
 .conteudo-header {
     display: flex;
@@ -48,7 +68,7 @@ header {
  .whatsapp {
     position: fixed;
     z-index: 2;
-    top: 200px;
+    top: 82%;
     right: 40px;
  }
  .whatsapp img {
